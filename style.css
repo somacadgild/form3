@@ -1,0 +1,101 @@
+*{
+	box-sizing: border-box;
+	padding:0px;
+	margin: 0px;
+}
+
+body{
+	background-image: url(bg.jpg);
+	background-size: cover;
+}
+h1{
+	color:white;
+	margin-top:10px 40px 40px 40px;
+}
+.flex-container{
+	display:-webkit-flex;
+	display: flex;
+	max-width: 1000px;
+	margin: auto;
+
+}
+.iconimage{
+	background-image: url(iconmail.png);
+	background-repeat: no-repeat;
+	background-position:left top;
+	background-size: 30px 40px;
+}
+
+.passwordimg{
+	background-image: url(security-icon-7.png);
+	background-repeat: no-repeat;
+	background-position: left-top;
+	background-size: 40px 30px;
+}
+.box1{
+	background-image: url(download.jpg);
+	background-size: cover;
+	padding:150px 50px 0px 50px;
+	color: white;
+	width: 500px;
+	height: 500px;
+}
+ul li{
+list-style-type: none;
+display: inline;
+margin: 20px;
+}
+.whitebtn{
+	background-color: white;
+	border:none;
+	width: 150px;
+	height: 40px;
+	margin-bottom: 150px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+.box2{
+	background-color: black;
+	color: white;
+	width: 500px;
+	height: 500px;
+	padding: 40px 50px;
+}
+input{
+	background-color:black;
+	border:1px solid white;
+	width: 400px;
+	height: 40px;
+	border-radius: 3px;
+}
+a{
+	text-decoration:none;
+	color:white;
+}
+.signupbt{
+	border:none;
+	background-color: #912CEE;
+	float: right;
+	width: 100px;
+	color: white;
+	height: 40px;
+	border-right: 3px;
+}
+.facebookbt, .twitterbtn{
+	border: none;
+	color: white;
+	width: 150px;
+	height: 40px;
+	font-size: 18px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.facebookbt{
+	background-color:#104E8B;
+}
+.twitterbtn{
+	background-color: #00B2EE;
+}
+.fontsize{
+	font-size: 15px;
+}
